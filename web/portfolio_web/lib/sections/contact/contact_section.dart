@@ -66,6 +66,9 @@ class ContactSection extends StatelessWidget {
                     ),
                   ],
                 ),
+                SizedBox(
+                  height: kDefaultPadding * 2,
+                ),
                 ContactForm(),
               ],
             ),
